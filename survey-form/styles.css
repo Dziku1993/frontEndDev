@@ -1,6 +1,16 @@
+
 body {
     margin: 0;
     padding: 0;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+p {
+    text-align: center;
 }
 
 form {
@@ -8,10 +18,26 @@ form {
     max-width: 600px;
     min-width: 600px;
     margin: 0 auto;
-    padding: 30px 20px;
-    background-color: aqua;
+    padding: 30px 40px;
+    background-color: rgba(37, 15, 61, 0.9);
 }
 
-label, input {
+label, input, select {
     display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+label {
+    margin: 20px 0 0 0;
+}
+
+input {
+    margin: 10px 0 0 0;
+}
+
+.inline input {
+    display: inline-block;
 }
